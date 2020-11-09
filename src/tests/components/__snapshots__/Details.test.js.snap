@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con Details Debe mostrarse correctamente en español 1`] = `
+<div>
+  <h5>
+    Tipo
+  </h5>
+  <Data
+    data="Type 1"
+    key="Type 1"
+    name="Type 1"
+  />
+  <Data
+    data="Type 2"
+    key="Type 2"
+    name="Type 2"
+  />
+  <h5>
+    Habilidades
+  </h5>
+  <Data
+    data="Ability 1"
+    key="Ability 1"
+    name="Ability 1"
+  />
+  <Data
+    data="Ability 2"
+    key="Ability 2"
+    name="Ability 2"
+  />
+  <Data
+    data="Ability 3"
+    key="Ability 3"
+    name="Ability 3"
+  />
+  <h5>
+    Descripción
+  </h5>
+  <p>
+    Esta es una descripción
+  </p>
+</div>
+`;
+
+exports[`Pruebas con Details Debe mostrarse correctamente en inglés 1`] = `
+<div>
+  <h5>
+    Type
+  </h5>
+  <Data
+    data="Type 1"
+    key="Type 1"
+    name="Type 1"
+  />
+  <Data
+    data="Type 2"
+    key="Type 2"
+    name="Type 2"
+  />
+  <h5>
+    Abilities
+  </h5>
+  <Data
+    data="Ability 1"
+    key="Ability 1"
+    name="Ability 1"
+  />
+  <Data
+    data="Ability 2"
+    key="Ability 2"
+    name="Ability 2"
+  />
+  <Data
+    data="Ability 3"
+    key="Ability 3"
+    name="Ability 3"
+  />
+  <h5>
+    Description
+  </h5>
+  <p>
+    Esta es una descripción
+  </p>
+</div>
+`;

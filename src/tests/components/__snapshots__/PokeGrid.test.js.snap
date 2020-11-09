@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con <PokeGrid /> Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <Row
+    className="justify-content-md-center align-self-center"
+    noGutters={false}
+  >
+    <PokeGridItem
+      key="Pikachu"
+      lg="es"
+      name="Pikachu"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
+    <PokeGridItem
+      key="Charmander"
+      lg="es"
+      name="Charmander"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
+  </Row>
+  <Row
+    className="justify-content-md-center align-self-end"
+    noGutters={false}
+  >
+    <Col
+      lg={2}
+      sm={4}
+      xs={6}
+    />
+    <Col
+      lg={2}
+      sm={4}
+      xs={6}
+    >
+      <button
+        className="pg"
+        onChange={[Function]}
+        onClick={[Function]}
+      >
+        Siguiente
+      </button>
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="pagination ml-auto"
+      lg={1}
+      md={2}
+      sm={2}
+      xs={2}
+    >
+      <p
+        className="ml-auto"
+      >
+         
+        Página
+         
+      </p>
+    </Col>
+    <Col
+      lg={1}
+      md={2}
+      sm={2}
+      xs={2}
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          name="Page"
+          onChange={[Function]}
+          type="number"
+          value={1}
+        />
+      </form>
+    </Col>
+    <Col
+      className="pagination"
+      lg={1}
+      md={2}
+      sm={2}
+      xs={2}
+    >
+      <p>
+         
+        de 130
+         
+      </p>
+    </Col>
+  </Row>
+</Fragment>
+`;

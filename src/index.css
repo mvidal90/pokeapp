@@ -1,13 +1,158 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@media (min-width: 300px){
+
+  body{
+    background-color: black;
+    background-image: url('./img/bg-pokeapp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+  }
+  
+  h2, h3{
+    color: white;
+  }
+  
+  h2{
+    margin-left: 15%;
+  }
+  
+  h3, h4, h5, p:first-letter{
+    text-transform: capitalize;
+  }
+  
+  h3{
+    margin-top: 2%;
+    text-shadow: 2px 2px 3px rgba( 0, 0, 0, 0.7);
+    text-align: center;
+  }
+  
+  h4{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  
+  button{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    border: 1px solid rgba(1, 36, 86, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    color:black;
+    font-weight: bold;
+    height: 35px;
+    margin: 3%;
+    padding: 1%;
+    width: 100px;
+  }
+    button:hover{
+      background-color: rgba(1, 36, 86, 0.7);
+      color: white;
+    }
+  
+  img{
+    height: auto;
+    width: 100%; 
+  }
+  
+  input{
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 25%;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card{
+    align-items: center;
+    background-color: rgba( 0, 0, 0, 0.7);
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    margin: 1% 25%;
+    padding: 2%;
+    width: 60%;
+    height: 300px;
+  }
+    .card:hover{
+      background-color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+    }
+    
+  .image{
+    align-items: center;
+    align-content: center;
+    background-image: url("./img/smoke.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    height: 80%;
+  }
+  
+  .imgModal{
+    height: 200px;
+    width: auto;
+  }
+  
+  .landscape{
+    background-image: url('./img/bg-modal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .2rem .2rem 0 0;
+    display: flex;
+    align-content: center;
+    height: 30%;
+    padding: 3%;
+    width: 100%;}
+  
+  .language{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    padding: 1% 15% 1% 0;
+  }
+  
+  .lg{
+    height: 40px;
+    padding: 0 10%;  
+  }
+    .lg:hover{
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  
+  .pagination{
+    color: white;
+    margin-top: 2%;
+  }
+  
+  .pg{
+    width: 100%;
+  }
+
+  .text-right{
+    text-align: right;
+  }
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 600px){
+  h1{
+    margin-left: 0;
+  }
+
+  input{
+    margin-top: 0;
+  }
+
+  .card{
+    height: auto;
+    margin: 3% 1%;
+    width: 100%;
+  }
+
+  .pagination{
+    margin-top: 0;
+  }
+
 }

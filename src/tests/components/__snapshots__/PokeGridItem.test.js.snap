@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con <PokeGridItem /> Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <Modal
+    animation={true}
+    autoFocus={true}
+    backdrop={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+  >
+    <div
+      className="justify-content-md-center align-self-center landscape"
+    >
+      <img
+        alt="Un pokemon"
+        className="imgModal"
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/undefined.svg"
+      />
+    </div>
+    <ModalBody>
+      <h4>
+        Un pokemon
+      </h4>
+      <Details
+        lg="es"
+      />
+    </ModalBody>
+  </Modal>
+</Fragment>
+`;
